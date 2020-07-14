@@ -1,0 +1,201 @@
+@media (max-width: 1600px) {
+
+.main__catalog_block {
+  height: 570px;
+  padding: 50px 10px 0px 0px;
+  max-width: 1210px;
+}
+
+.main__catalog-stone_little-title {
+  font-size: 15px;
+}
+
+.main__catalog-stone > form > input {
+  width: 320px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 40px 0px 0px 25px;
+}
+
+}
+
+@media (max-width: 1366px) {
+
+  
+
+}
+
+  @media (max-width: 1280px) {
+    
+    .main__type-of-stone {
+      margin: 0px 0px 0px 4.7vw;
+  }
+
+  }
+
+  @media (max-width: 1024px) {
+
+    .main__catalog_block {
+        height: 930px;
+    }
+
+    .main__catalog_block {
+      flex-direction: column;
+  }
+
+  .main__type-of-stone_block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__type-of-stone {
+    margin: 0px 0px 0px 0vw;
+}
+
+.main__catalog-stone_big-title {
+  margin: 30px 0px 0px 25px;
+}
+
+  }
+
+  @media (max-width: 892px) {
+
+    .main__catalog_block {
+        height: 980px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    .main__catalog_block {
+        height: 1030px;
+    }
+
+    .main__catalog-stone > form > input {
+      margin: 52px 0px 0px 215px;
+  }
+  }
+
+  @media (max-width: 700px) {
+
+    .main__catalog_block {
+        height: 1050px;
+    }
+
+  }
+
+  @media (max-width: 680px) {
+
+    .main__catalog_block {
+        height: 550px;
+    }
+
+    .main__type-of-stone_block {
+        display: none;
+    }
+
+    .main__catalog_block {
+      padding: 0px 0px 0px 0px;
+  
+    }
+  }
+
+  @media (max-width: 611px) {
+
+    .main__catalog_block {
+        height: 590px;
+    }
+
+}
+
+@media (max-width: 573px) {
+
+    .main__catalog_block {
+        height: 610px;
+    }
+
+  }
+
+  @media (max-width: 541px) {
+
+    .main__catalog_block {
+        height: 640px;
+    }
+
+  }
+
+  @media (max-width: 492px) {
+
+    .main__catalog_block {
+        height: 690px;
+    }
+
+  }
+
+  @media (max-width: 440px) {
+
+    .main__catalog_block {
+        height: 750px;
+    }
+
+  }
+
+  @media (max-width: 410px) {
+
+    .main__catalog_block {
+        height: 830px;
+    }
+
+  }
+  
+  @media (max-width: 363px) {
+
+    .main__catalog_block {
+        height: 880px;
+    }
+
+    .main__catalog-stone > form > input {
+        width: 300px;
+    }
+
+  }
+
+  @media (max-width: 346px) {
+
+    .main__catalog_block {
+        height: 900px;
+    }
+
+  }
+
+  @media (max-width: 340px) {
+
+    .main__catalog-stone > form > input {
+        margin: 32px 0px 0px 10px;
+    }
+
+    .main__catalog-stone_little-title {
+        margin: 25px 0px 0px 15px;
+    }
+
+  }
+
+  @media (max-width: 320px) {
+
+    .main__catalog_block {
+        height: 980px;
+    }
+
+    .main__catalog-stone_big-title {
+      font-size: 25px;
+      margin: 25px 10px 0px 15px;
+  }
+
+  .main__catalog-stone_big-title {
+    margin: 25px 10px 0px 52px;
+}
+
+  }
+
+
