@@ -1,8 +1,9 @@
 @media (max-width: 1600px) {
 
-    .navigation > div {
-        margin: 0px 0px 0px 86px;
+    .navigation {
+        max-width: 1180px;
     }
+
 }
 
 
