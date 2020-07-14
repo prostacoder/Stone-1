@@ -7,16 +7,21 @@
 
 .main__upper-block {
     display: flex;
+    flex-direction: column;
 }
 
 .main__upper-block > div:nth-of-type(1) {
-    width: 47%;
     display: flex;
-    flex-direction: column;
     padding: 35px 0px 0px 0px;
 }
 
-.main__upper-block > div:nth-of-type(1) > h1 {
+.main__upper-block > div:nth-of-type(1) > div {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+}
+
+.main__upper-block > div:nth-of-type(1) > div > h1 {
     font-family: "Montserrat Bold";
     font-size: 36px;
     line-height: 44px;
@@ -24,7 +29,7 @@
     color: #3D3D3D;   
 }
 
-.main__upper-block > div:nth-of-type(1) > p {
+.main__upper-block > div:nth-of-type(1) > div > p {
     font-family: "Montserrat";
     font-size: 18px;
     line-height: 25px;
@@ -34,19 +39,24 @@
 }
 
 .main__upper-block > div:nth-of-type(1) > img {
+    width: 689px;
+    height: 184px;
     border-radius: 5px;
-    padding: 75px 0px 0px 0px;
+    padding: 0px 0px 0px 53px;
 }
-
 
 .main__upper-block > div:nth-of-type(2) {
-    width: 49%;
     display: flex;
-    flex-direction: column;
-    margin: 35px 0px 0px 54px;
+    margin: 75px 0px 0px 0px;
 }
 
-.main__upper-block > div:nth-of-type(2) > h1 {
+.main__upper-block > div:nth-of-type(2) > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 51px;
+}
+
+.main__upper-block > div:nth-of-type(2) > div > h1 {
     font-family: "Montserrat Bold";
     font-style: normal;
     font-weight: bold;
@@ -54,10 +64,9 @@
     line-height: 29px;
     letter-spacing: 0.05em;
     color: #3D3D3D;
-    padding: 85px 0px 0px 0px;
 }
 
-.main__upper-block > div:nth-of-type(2) > p {
+.main__upper-block > div:nth-of-type(2) > div > p {
     font-family: "Montserrat";
     font-size: 18px;
     line-height: 25px;
@@ -67,7 +76,9 @@
 }
 
 .main__upper-block > div:nth-of-type(2) > img {
-    border-radius: 5px; 
+    border-radius: 5px;
+    width: 660px;
+    height: 350px;
 }
 
 
