@@ -1,0 +1,52 @@
+@media (max-width: 1600px) {
+
+    .main__form {
+        max-width: 1210px;
+        margin-bottom: 80px;
+    }
+
+    .main__form > div:nth-of-type(1) > h1 {
+        font-size: 26px;
+    }
+
+    .main__form > div:nth-of-type(1) > p {
+        font-size: 17px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(1) > div > p {
+        font-size: 15px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(1) > div > h1 {
+        font-size: 15px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) {
+        margin: 25px 0px 0px 0px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > input:nth-of-type(1) {
+        width: 380px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > textarea:nth-of-type(1) {
+        width: 380px;
+        height: 120px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > input:nth-of-type(1) {
+        width: 380px;
+        height: 55px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > input:nth-of-type(2) {
+        width: 380px;
+        height: 55px;
+    }
+
+    .main__form > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > input:nth-of-type(3) {
+        width: 380px;
+        height: 55px;
+    }
+
+}

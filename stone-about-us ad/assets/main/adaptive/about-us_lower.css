@@ -1,0 +1,15 @@
+@media (max-width: 1600px) {
+
+    .main__map {
+        max-width: 1210px;
+        min-height: 540px;
+    }
+
+    .main__map > div > iframe {
+        width: 600px;
+        height: 400px;
+    }
+    
+
+
+}

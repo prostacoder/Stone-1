@@ -61,6 +61,9 @@
 .main__adventages {
     min-height: 790px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
     justify-content: center;
     align-items: center;
 }

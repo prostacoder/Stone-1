@@ -1,0 +1,47 @@
+@media (max-width: 1600px) {
+
+    .main__about-us_center {
+        max-width: 1210px;
+    }
+
+    .main__about-us_center > div:nth-of-type(1) > div {
+        grid-template-columns: 250px 275px 275px 285px;
+        grid-column-gap: 40px;
+    }
+
+    .main__about-us_center > div:nth-of-type(1) > div > div > h1 {
+        font-size: 120px;
+    }
+
+    .main__about-us_center > div:nth-of-type(1) > div > div > p {
+        width: 185px;
+        font-size: 12px;
+        margin: 0px 0px 25px 15px;
+    }
+
+    .main__adventages {
+        max-width: 1210px;
+    }
+
+    .main__adventages > div {
+        grid-column-gap: 65px;
+        grid-row-gap: 65px;
+    }
+
+    .main__adventages > div > div > img {
+        width: 40px;
+    }
+
+    .main__adventages > div > div > h1 {
+        width: 145px;
+        font-size: 18px;
+    }
+
+    .main__adventages > div > div > p {
+        width: 250px;
+        font-size: 15px;
+    }
+    
+
+
+}
