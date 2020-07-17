@@ -93,6 +93,29 @@
 
 }
 
+@media(max-width: 768px) {
+
+    .main__reviews__wrapper > h2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 160px;
+    }
+
+    .main__reviews__slide > div {
+        align-items: center;
+    }
+
+    .main__reviews__slide > div > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+}
+
+
 @media(max-width: 510px) {
   
     .main__reviews__wrapper {
@@ -110,10 +133,6 @@
 
     .main__reviews__slide > div > div {
         padding: 43px 8px 0;
-    }
-
-    .main__reviews__wrapper > h2 {
-        margin-left: 0;
     }
 }
 

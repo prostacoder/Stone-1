@@ -163,6 +163,19 @@
       max-width: 605px;
       height: 880px;
   }
+
+  .main__catalog-stone_little-title > form {
+      max-width: 345px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .main__catalog-stone_big-title {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
   }
 
   @media (max-width: 680px) {

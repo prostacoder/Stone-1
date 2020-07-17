@@ -65,6 +65,12 @@
   color: #ff9900;
   background: #fff;
   margin-top: 24px;
+  cursor: pointer;
+}
+
+.slider-1__single-item > div > div > div:nth-of-type(1) > button:hover  {
+    color: #fff;
+    background: #ff9900;
 }
 
 .main__slider-1 {
@@ -87,9 +93,13 @@
 
 .main__slider-1 > .slick-dots {
     display: flex;
-    column-gap: 3px;
     justify-content: center;
     margin-top: 70px;
+}
+
+.slick-dots > li {
+    list-style: none;
+    margin: 0 4px 0 0;
 }
 
 .main__slider-1 > .slick-dots > li > button {

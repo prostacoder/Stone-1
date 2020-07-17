@@ -64,7 +64,9 @@
   }
 
   .main__latest-projects__wrapper > h1:nth-of-type(1) {
-    margin-left: initial;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
   }
 
 .main__slider-1 > .slick-prev {

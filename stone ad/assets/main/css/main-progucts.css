@@ -84,4 +84,9 @@
     color: #FFFFFF;
     border: none;
     margin: 33px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.main__material-description > a > input:hover {
+    background: #db8709;
 }

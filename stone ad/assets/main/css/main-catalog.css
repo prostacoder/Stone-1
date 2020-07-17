@@ -95,4 +95,9 @@
     color: #FFFFFF;
     margin: 52px 0px 0px 25px;
     border: none;
+    cursor: pointer;
+}
+
+.main__catalog-stone > form > input:hover {
+    background: #db8709;
 }
