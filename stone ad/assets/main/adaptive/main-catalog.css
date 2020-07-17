@@ -1,9 +1,10 @@
 @media (max-width: 1600px) {
 
 .main__catalog_block {
-  height: 570px;
-  padding: 50px 10px 0px 0px;
-  max-width: 1210px;
+    height: 570px;
+    padding: 50px 10px 0px 0px;
+    max-width: 1210px;
+    transform: scale(0.9);
 }
 
 .main__catalog-stone_little-title {

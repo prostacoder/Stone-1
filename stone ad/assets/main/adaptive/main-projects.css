@@ -1,38 +1,23 @@
-@media (max-width: 1600px) {
+@media (max-width: 1499px) {
+  .main__slider-1 > .slick-next {
+    right: 10vw;
+  }
 
-.main__latest-projects {
-    min-height: 540px;
-}  
+  .main__slider-1 > .slick-prev {
+    left: 10vw;
+  }
 
-.main__latest-projects__wrapper {
-    max-width: 1210px;
-}
+  .slider-1__single-item > div > div {
+    width: 70%;
+    margin: 0px auto;
+  }
 
-.slick-slide img {
-  width: 130px;
-}
-
-.slider-1__single-item > div > div {
-  height: 222px;
-  padding: 10px;
-}
-
-.slider-1__single-item > div > div > div:nth-of-type(1) {
-  padding: 5px 0px 0px 20px;
-}
-
-.main__slider-1 > .slick-prev {
-  top: 39%;
-}
-
-.main__slider-1 > .slick-next {
-  bottom: 51%;
-}
-
-.main__slider-1 > .slick-dots {
-  margin-top: 20px;
-}
-
+  .main__latest-projects__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.9);
+  }
 }
 
 @media (max-width: 900px) {
@@ -50,14 +35,6 @@
     left: 30px;
   }
 }
-
-@media (max-width: 768px) {
-
-  .main__latest-projects {
-    min-height: 614px;
-  }
-}
-
 
 @media (max-width: 760px) {
   .main__slider-1 .slick-slide img {
@@ -90,13 +67,16 @@
     margin-left: initial;
   }
 
-  .main__slider-1 > .slick-next {
-    right: 15px;
-  }
-
-  .main__slider-1 > .slick-prev {
+.main__slider-1 > .slick-prev {
+    top: 36%;
     left: 15px;
-  }
+}
+
+.main__slider-1 > .slick-next {
+    bottom: 57%;
+    right: 15px;
+}
+
 
   .slider-1__single-item > div > div {
     width: 560px;
@@ -107,6 +87,8 @@
   }
 }
 
+
+
 @media (max-width: 660px) {
   .slider-1__single-item > div > div {
     width: 80vw;
@@ -116,12 +98,14 @@
     width: 100%;
   }
 
-  .main__slider-1 > .slick-next {
-    right: 10px;
+  .main__slider-1 > .slick-prev {
+      top: 41%;
+      left: 10px;
   }
 
-  .main__slider-1 > .slick-prev {
-    left: 10px;
+  .main__slider-1 > .slick-next {
+      bottom: 55%;
+      right: 10px;
   }
 
   .slider-1__single-item > div > div {
@@ -150,11 +134,4 @@
   .main__latest-projects__wrapper > h1:nth-of-type(1) {
     font-size: 25px;
   }
-}
-
-@media (max-width: 320px) {
-  .slider-1__single-item > div > div > div:nth-of-type(1) > a > button {
-    width: 235px;
-  }
-  
 }

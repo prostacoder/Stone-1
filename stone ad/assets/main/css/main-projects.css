@@ -23,12 +23,12 @@
 .slider-1__single-item > div > div {
   display: flex;
   height: 295px;
-  width: 96%;
+  width: 90%;
   padding: 19px;
   border: 1px solid #bfbfbf;
   border-radius: 7px;
   box-sizing: border-box;
-  margin: 0px 30px 0px 9px;
+  margin: 0px 30px;
 }
 
 .main__slider-1 {
@@ -54,14 +54,13 @@
   margin-top: 22px;
 }
 
-.slider-1__single-item > div > div > div:nth-of-type(1) > a > button {
+.slider-1__single-item > div > div > div:nth-of-type(1) > button {
   width: 350px;
   height: 50px;
   border: 1px solid #ff9900;
   border-radius: 5px;
   font-family: "Montserrat";
   font-size: 18px;
-  outline: none;
   line-height: 48px;
   color: #ff9900;
   background: #fff;
@@ -73,32 +72,24 @@
 }
 
 .main__slider-1 > .slick-prev {
-  position: absolute;
-  left: -45px;
-  top: 35%;
-  width: 30px;
+    position: absolute;
+    left: -25px;
+    top: 35%;
+    width: 30px;
 }
 
 .main__slider-1 > .slick-next {
-  position: absolute;
-  bottom: 58%;
-  right: -34px;
-  width: 30px;
+    position: absolute;
+    bottom: 58%;
+    right: -15px;
+    width: 30px;
 }
 
 .main__slider-1 > .slick-dots {
     display: flex;
+    column-gap: 3px;
     justify-content: center;
     margin-top: 70px;
-}
-
-.slick-dots > li {
-  list-style: none;
-  margin: 0px 10px 0px 0px;
-}
-
-.slick-dots > li > button {
-outline: none;
 }
 
 .main__slider-1 > .slick-dots > li > button {
@@ -116,16 +107,4 @@ outline: none;
   width: 15px;
   height: 15px;
   border-radius: 15px;
-}
-
-.slider-1__single-item {
-outline: none;
-}
-
-.main__our-partners__slide {
-  outline: none;
-}
-
-.main__reviews__slide  {
-    outline: none;
 }
