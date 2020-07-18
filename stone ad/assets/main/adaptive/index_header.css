@@ -73,8 +73,9 @@ header {
   font-size: 14px;
 }
 
-.header__form-feedback > p:nth-of-type(1) {
-  font-size: 13px;
+.header__title-big {
+    line-height: 35px;
+    text-align: center;
 }
 
 .header__form-feedback_block {
@@ -232,37 +233,50 @@ header {
     height: 695px;
 }
 
-.header__upper-block {
-  max-width: 605px;
-}
+  .header__upper-block {
+      max-width: 600px;
+  }
 
-.header__title-block {
-  margin-top: 30px;
-  max-width: 605px;
-  display: flex;
-  justify-content: center;
-}
+  .header__title-block {
+    margin-top: 30px;
+    max-width: 605px;
+    display: flex;
+    justify-content: center;
+  }
 
-.header__advantages-block {
-  margin-top: 40px;
-  max-width: 605px;
-  display: flex;
-  justify-content: center;
-}
+  .header__advantages-block {
+    margin-top: 40px;
+    max-width: 605px;
+    display: flex;
+    justify-content: center;
+  }
 
-.header__form-feedback_block {
-  margin-top: 25px;
-  max-width: 605px;
-}
+  .header__advantages {
+    text-align: center;
+  }
 
-.header__form-feedback {
-    align-items: center;
-}
+  .header__form-feedback > p:nth-of-type(1) {
+    text-align: center;
+  }
 
-.header__form-feedback > p:nth-of-type(2) {
-    margin: 25px 0px 0px 57px;
-    line-height: 15px;
-}
+  .header__form-feedback_block {
+    margin-top: 25px;
+    max-width: 605px;
+  }
+
+  .header__form-feedback {
+      align-items: center;
+  }
+
+  .header__form-feedback > p:nth-of-type(2) {
+      margin: 25px 0px 0px 15px;
+      line-height: 15px;
+      text-align: center;
+  }
+
+  .header__navigation-part_5 {
+      margin: 0px 0px 0px 30px;
+  }
 
   .header__navigation-part_6 {
     display: none;
@@ -320,25 +334,29 @@ header {
 
 @media (max-width: 625px) {
 
+  header {
+      height: 715px;
+  }
+
   .header__upper-block {
     max-width: 507px;
-}
+  }
 
 .header__title-block {
   max-width: 507px;
-}
+  }
 
 .header__advantages-block {
   max-width: 507px;
-}
+  }
 
 .header__form-feedback_block {
     max-width: 507px;
-}
+  }
 
 .header__feedback {
   margin: 0px 0vw 2px 29vw;
-}
+  }
 
 }
 
@@ -346,7 +364,7 @@ header {
 @media (max-width: 556px) {
 
   header {
-    height: 740px;
+    height: 690px;
 }
 
 .header__upper-block {
@@ -511,7 +529,7 @@ header {
 }
 
 .header__form-feedback > p:nth-of-type(2) {
-    margin: 25px 0px 0px 40px;
+    margin: 25px 0px 0px 2px;
 }
 
 .header__feedback {

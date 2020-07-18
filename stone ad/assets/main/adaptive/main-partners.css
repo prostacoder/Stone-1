@@ -30,6 +30,14 @@
     max-width: 320px;
   }
 
+  .main__our-partners {
+    height: 370px;
+  }
+
+  .main__our-partners__wrapper {
+    padding: 20px 0;
+  }
+
 }
 
 @media (max-width: 380px) {

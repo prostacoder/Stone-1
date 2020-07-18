@@ -62,6 +62,7 @@
 
     .footer > div:nth-of-type(1) {
         max-width: 1210px;
+        transform: scale(0.9);
     }
 
     .footer__our_material {
@@ -82,10 +83,12 @@
 
     .footer__feedback-block {
         max-width: 1210px;
+        transform: scale(0.9);
     }
 
     .footer__copyright {
         max-width: 1210px;
+        transform: scale(0.9);
     }
 
     .footer__copyright > p:nth-of-type(1) {

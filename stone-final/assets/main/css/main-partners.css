@@ -6,7 +6,6 @@
   flex-direction: column;
   box-sizing: border-box;
 }
-
 .main__our-partners__wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +33,7 @@
 }
 
 .main__our-partners__slide > img {
-  width: 150px;
+  width: 120px;
   height: auto;
   filter: grayscale(1);
   cursor: pointer;
@@ -42,7 +41,7 @@
 }
 
 .main__our-partners__slide > img:hover {
-  width: 150px;
+  width: 120px;
   height: auto;
   filter: grayscale(0);
   transition: filter 0.2s linear 0s;
@@ -50,6 +49,7 @@
 
 .main__our-partners__slider > .slick-dots {
   display: flex;
+  column-gap: 3px;
   justify-content: center;
   margin-top: 40px;
 }

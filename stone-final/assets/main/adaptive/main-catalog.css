@@ -1,9 +1,10 @@
 @media (max-width: 1600px) {
 
 .main__catalog_block {
-  height: 570px;
-  padding: 50px 10px 0px 0px;
-  max-width: 1210px;
+    height: 570px;
+    padding: 50px 10px 0px 0px;
+    max-width: 1210px;
+    transform: scale(0.9);
 }
 
 .main__catalog-stone_little-title {
@@ -162,6 +163,19 @@
       max-width: 605px;
       height: 880px;
   }
+
+  .main__catalog-stone_little-title > form {
+      max-width: 345px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .main__catalog-stone_big-title {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
   }
 
   @media (max-width: 680px) {
