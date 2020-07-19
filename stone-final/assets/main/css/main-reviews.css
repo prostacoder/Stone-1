@@ -57,7 +57,11 @@
     display: flex;
     height: 22px;
     margin-top: 66px;
-    column-gap: 15px;
+}
+
+.main__reviews__slide > div > div:nth-of-type(1) > div:nth-of-type(1) > a {
+    margin: 0px 0px 0px 10px;
+    outline: none;
 }
 
 .main__reviews__slide > div > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) {

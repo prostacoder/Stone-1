@@ -33,7 +33,7 @@ $(".main__our-partners__slider").slick({
     {
       breakpoint: 1515,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 5,
       },
     },
     {

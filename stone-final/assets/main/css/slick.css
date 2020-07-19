@@ -98,9 +98,9 @@
 {
     pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+.slick-initialized .slick-slide {
     display: block;
+    outline: none;
 }
 .slick-loading .slick-slide
 {

@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .main__slider-1 .slick-slide img {
     display: block;
     width: 100%;
@@ -51,6 +51,11 @@
 
   .slider-1__single-item > div > div {
     height: initial;
+  }
+
+  .main__latest-projects {
+    width: 100%;
+    min-height: 485px;
   }
 
   .main__latest-projects__wrapper {
@@ -87,6 +92,16 @@
   .slider-1__single-item > div > div > div:nth-of-type(1) > button {
     width: 100%;
   }
+
+.main__latest-projects__wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.slider-1__single-item > div > div > div:nth-of-type(1) {
+    padding: 10px;
+}
+
 }
 
 

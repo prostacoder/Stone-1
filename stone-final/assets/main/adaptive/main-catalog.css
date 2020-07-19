@@ -159,9 +159,9 @@
 
   @media (max-width: 768px) {
 
-    .main__catalog_block {
+  .main__catalog_block {
       max-width: 605px;
-      height: 880px;
+      height: 800px;
   }
 
   .main__catalog-stone_little-title > form {
@@ -171,7 +171,16 @@
   }
 
   .main__catalog-stone_big-title {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__catalog-stone {
+    text-align: center;
+  }
+
+  .main__type-of-stone_block {
     display: flex;
     justify-content: center;
   }
