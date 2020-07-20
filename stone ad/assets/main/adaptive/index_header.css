@@ -13,7 +13,7 @@
 }
 
 .header__upper-block {
-    max-width: 1175px;
+    max-width: 1210px;
     transform: scale(0.9);
 }
 
@@ -71,11 +71,6 @@ header {
 .header__form-submit {
   width: 270px;
   font-size: 14px;
-}
-
-.header__title-big {
-    line-height: 35px;
-    text-align: center;
 }
 
 .header__form-feedback_block {
@@ -236,6 +231,11 @@ header {
   .header__upper-block {
       max-width: 600px;
   }
+
+  .header__title-big {
+    line-height: 35px;
+    text-align: center;
+}
 
   .header__title-block {
     margin-top: 30px;

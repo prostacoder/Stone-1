@@ -189,13 +189,10 @@
 
   @media (max-width: 680px) {
 
-    .main__catalog_block {
-        height: 430px;
-    }
+.main__catalog_block {
+    height: 795px;
+}
 
-    .main__type-of-stone_block {
-        display: none;
-    }
 
     .main__catalog_block {
       padding: 0px 0px 0px 0px;
@@ -207,7 +204,7 @@
 
     .main__catalog_block {
       max-width: 546px;
-      height: 450px;
+      height: 820px;
   }
   
   }
@@ -216,7 +213,7 @@
 
     .main__catalog_block {
       max-width: 507px;
-      height: 480px;
+      height: 830px;
   }
 }
 
@@ -224,7 +221,7 @@
 
     .main__catalog_block {
       max-width: 455px;
-      height: 500px;
+      height: 860px;
     }
 
   }
@@ -233,8 +230,53 @@
 
     .main__catalog_block {
       max-width: 410px;
-      height: 540px;
+      height: 800px;
     }
+
+    .main__type-of-stone > img:nth-of-type(1) {
+        width: 200px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(2) {
+        width: 90px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(3) {
+      width: 90px
+    }
+
+    .main__type-of-stone > img:nth-of-type(4) {
+      width: 90px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(5) {
+      width: 90px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(6) {
+      width: 90px;
+      margin: 4px 0px 0px 0px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(7) {
+      width: 90px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(8) {
+      width: 90px;
+      margin: 5px 0px 0px 0px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(9) {
+      width: 90px;
+      margin: 4px 0px 0px 0px;
+    }
+
+  .main__type-of-stone {
+      grid-template-rows: 91px 91px 90px;
+      grid-template-columns: 95px 90px 90px 90px;
+  }
 
   }
 
@@ -242,7 +284,7 @@
 
     .main__catalog_block {
       max-width: 354px;
-      height: 600px;
+      height: 850px;
     }
 
   }
@@ -251,8 +293,54 @@
 
     .main__catalog_block {
       max-width: 315px;
-      height: 650px;
+      height: 850px;
     }
+
+    .main__type-of-stone > img:nth-of-type(1) {
+      width: 170px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(2) {
+        width: 70px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(3) {
+        width: 70px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(4) {
+      width: 70px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(5) {
+      width: 70px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(6) {
+      width: 70px;
+      margin: 4px 0px 0px 0px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(7) {
+      width: 70px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(8) {
+      width: 70px;
+      margin: 5px 0px 0px 0px;
+    }
+
+    .main__type-of-stone > img:nth-of-type(9) {
+      width: 70px;
+      margin: 4px 0px 0px 0px;
+    }
+
+  .main__type-of-stone {
+      grid-template-rows: 77px 77px 70px;
+      grid-template-columns: 75px 79px 70px 70px;
+  }
 
   }
   
@@ -267,7 +355,7 @@
   @media (max-width: 340px) {
 
     .main__catalog_block {
-      height: 680px;
+      height: 900px;
     }
 
     .main__catalog-stone > form > input {
@@ -283,7 +371,7 @@
   @media (max-width: 320px) {
 
     .main__catalog_block {
-      height: 700px;
+      height: 900px;
     }
 
     .main__catalog-stone_big-title {
