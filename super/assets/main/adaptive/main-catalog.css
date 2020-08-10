@@ -21,6 +21,10 @@
         margin: 40px 0 0 25px;
     }
 
+    .main__catalog-stone > a > input {
+        margin: 35px 0px 0px 25px;
+    }
+
 }
 
 @media(max-width: 1280px) {
@@ -239,7 +243,7 @@
     }
 
     .main__catalog-stone_big-title {
-        margin: 10px 0 0 10px;
+        margin: 0px 0 0 10px;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -252,6 +256,7 @@
 
     .main__catalog-stone {
         text-align: center;
+        margin-top: 50px;
     }
 
     .main__type-of-stone_block {
@@ -426,7 +431,7 @@
 
     .main__catalog_block {
         max-width: 354px;
-        height: 900px;
+        height: 950px;
     }
 
 }

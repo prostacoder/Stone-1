@@ -4,7 +4,7 @@
         grid-template-columns: 280px 280px 280px;
     }
 
-    .main__exaple-works > div:nth-of-type(1) > img {
+    .main__exaple-works > div:nth-of-type(1) > a > img {
         width: 280px;
     }
 
@@ -36,7 +36,7 @@
         grid-template-columns: 250px 250px 250px;
     }
 
-    .main__exaple-works > div:nth-of-type(1) > img {
+    .main__exaple-works > div:nth-of-type(1) > a > img {
         width: 250px;
     }
 
@@ -55,7 +55,7 @@
     }
 
     .main__exaple-works {
-    margin: 98px 0px 0px 15px;
+    margin: 98px 0px 0px 0px;
 }
 
 }
@@ -66,7 +66,7 @@
     grid-template-columns: 215px 215px 215px;
 }
 
-.main__exaple-works > div:nth-of-type(1) > img {
+.main__exaple-works > div:nth-of-type(1) > a > img {
     width: 215px;
 }
 

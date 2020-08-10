@@ -6,11 +6,11 @@
 
     .main__stone-description {
         margin: 120px 0px 60px 0px;
-        width: 123%;
+        width: 100%;
     }
 
     .main__stone-description > div > p {
-        width: 810px;
+        width: 680px;
     }
 
 
@@ -19,7 +19,7 @@
 @media(max-width: 1400px) {
 
 .main__stone-description {
-    margin: 90px 0px 10% 15px;
+    margin: 90px 0px 10% 0px;
 }
 
 .main__wrapper {

@@ -422,6 +422,11 @@
     height: 1725px;
 }
 
+.main__instagram-photos > div {
+    width: 260px;
+    height: 260px;
+}
+
 .main__instagram-photos {
     -ms-grid-columns: 260px;
     grid-template-columns: 260px;

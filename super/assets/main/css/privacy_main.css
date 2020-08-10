@@ -36,7 +36,9 @@
 
 
 
-
+.main__wrapper > div:nth-of-type(2) {
+    height: 101%;
+}
 
 .main__wrapper > div:nth-of-type(2) > div > h1 {
     font-family: "Montserrat Bold";

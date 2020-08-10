@@ -240,6 +240,15 @@ height: 50px;
     color: #FFFFFF;
 }
 
+.header__advantages > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__advantages > div > p {
+    text-align: center;
+}
+
 .header__advantages-part_2 {
     margin: 0px 0px 0px 83px;
 }
@@ -247,6 +256,11 @@ height: 50px;
 .header__advantages-part_3 {
     margin: 0px 0px 0px 66px;
 }
+
+.header__advantages-part_4 {
+    margin: 0px 0px 0px 66px;
+}
+
 
 .header__advantages-part_1>p {
     margin: 6px 0px 0px 0px;
@@ -257,6 +271,11 @@ height: 50px;
 }
 
 .header__advantages-part_3 > p {
+    margin: 6px 0px 0px 0px;
+    width: 101px;
+}
+
+.header__advantages-part_4 > p {
     margin: 6px 0px 0px 0px;
     width: 101px;
 }
@@ -344,6 +363,11 @@ height: 50px;
     letter-spacing: 0.05em;
     color: rgba(61, 61, 61, 0.5);
 }
+
+.header__form-number:focus {
+    color: rgba(61, 61, 61);
+}
+
 
 .header__form-submit {
     width: 335px;
