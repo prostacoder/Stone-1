@@ -1,0 +1,13 @@
+@media (max-width: 850px) {
+main {
+    text-align: center;
+}
+
+.main__about-us_upper > div:nth-of-type(2) {
+    margin: 20px 0px 0px 0px;
+}
+
+.main__about-us_center > div:nth-of-type(1) > div {
+    padding: 25px 0px 0px 0px;
+}
+}

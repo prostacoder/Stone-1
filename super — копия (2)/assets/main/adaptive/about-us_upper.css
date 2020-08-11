@@ -1,0 +1,9 @@
+@media(max-width: 768px) {
+.main__about-us_upper > div:nth-of-type(2) > img {
+    display: none;
+}
+
+.main__about-us_upper > div:nth-of-type(2) > div > div {
+    padding: 0px 0px 30px 0px;
+}
+}
