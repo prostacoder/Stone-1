@@ -1,0 +1,24 @@
+@media (max-width:1600px ) {
+
+    .main__stone-interior {
+        max-width: 1210px;
+        height: max-content;
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
+    .main__stone-interior > h1 {
+        font-size: 30px;
+    }
+    
+    .main__article-interior > img {
+        width: 85%;
+        height: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .main__article-interior > div > p {
+        font-size: 14px;
+    }
+
+}

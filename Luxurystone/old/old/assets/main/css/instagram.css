@@ -1,0 +1,79 @@
+.main__instagram_block {
+  width: 100%;
+  min-height: 1160px;
+}
+
+.main__instagram {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  margin-top: 151px;
+}
+
+.main__instagram > p:nth-of-type(1) {
+  font-family: "Montserrat Bold";
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  color: #3D3D3D;
+  margin: 0px 0px 0px 7px;
+}
+
+.main__instagram-photos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 465px 5px 465px 5px 465px;
+  grid-template-columns: 465px 465px 465px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin: 50px 0px 0px 0px;
+}
+
+.main__instagram-photos > div {
+  width: 465px;
+  height: 465px;
+  position: relative;
+}
+
+.main__instagram-photos > div > img {
+  position: absolute;
+}
+
+.main__instagram-photos > div > div > p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  padding: 70px 37px 0px 37px;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.main__instagram-photos > div > div > p > a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.main__instagram-photos > div:hover > img {
+  -webkit-filter:brightness(50%);
+          filter:brightness(50%);
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  -o-transition: filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+
+.main__instagram-photos > div:hover > div > p {
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}

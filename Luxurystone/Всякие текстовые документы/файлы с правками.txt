@@ -1,0 +1,5 @@
+contacts.html,about-us.html
+
+adaptive:cart_stone-description.css,cart_buy-stone.css,media.css,about-us_upper.css,about-us_center.css,404_main
+
+css:map.css,about-us_form.css,contacts_form.css,404.main

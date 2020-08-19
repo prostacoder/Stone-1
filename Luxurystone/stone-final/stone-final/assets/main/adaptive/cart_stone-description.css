@@ -1,0 +1,16 @@
+@media (max-width: 1600px) {
+
+    .main__wrapper {
+        min-height: 1450px;
+    }
+
+    .main__stone-description {
+        margin: 120px 0px 0px 0px;
+        width: 123%;
+    }
+
+    .main__stone-description > div > p {
+        width: 810px;
+    }
+
+}

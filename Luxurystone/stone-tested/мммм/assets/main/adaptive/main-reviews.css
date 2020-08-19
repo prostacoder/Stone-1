@@ -1,0 +1,121 @@
+@media (max-width: 1500px) {
+  .main__reviews__wrapper {
+    margin: 0 50px;
+  }
+
+  .main__reviews__wrapper {
+    padding: 100px 50px !important;
+    box-sizing: border-box;
+  }
+
+  .main__reviews__slide > div {
+    align-items: flex-start;
+  }
+
+  .main__reviews__slide > div > img {
+    width: 282px;
+    height: auto;
+    flex: initial;
+  }
+
+  .main__reviews__slide > div > div {
+    flex: initial;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .main__reviews__slider > .slick-dots {
+    bottom: -150px;
+	}
+	.main__reviews__slider > .slick-dots {
+    margin-top: 30px;
+}
+}
+
+@media(max-width: 880px) {
+
+.main__reviews__slider > .slick-dots {
+    margin-top: 30px;
+}
+
+}
+
+
+@media (max-width: 970px) {
+  .main__reviews__wrapper {
+    margin: 0 0;
+  }
+
+  .main__reviews__wrapper {
+    padding: 77px 60px 50px 60px !important;
+  }
+
+  .main__reviews__slide > div {
+    flex-direction: column;
+  }
+
+  .main__reviews__slider {
+    height: initial;
+  }
+
+  .main__reviews {
+    height: initial;
+  }
+
+  .main__reviews__slider > .slick-dots {
+    bottom: -90px;
+  }
+
+ .main__reviews__slide > div > img {
+    margin: 0 auto;
+}
+
+  .main__reviews__slide > div > div {
+		width: 90%;
+		text-align: center;
+  }
+
+  .main__reviews__wrapper > h2 {
+		text-align: center;
+	}
+	.main__reviews__slide > div > div:nth-of-type(1) > div:nth-of-type(1) {
+		display: block;
+	}
+	.slick-slide img, .main__reviews__slide > div > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) {
+		display: inline-block;
+	}
+	.main__reviews__slider > .slick-dots {
+    margin-top: 30px;
+}
+}
+
+@media (max-width: 485px) {
+  .main__reviews__wrapper {
+    padding: 77px 20px 50px 20px !important;
+  }
+
+  .main__reviews__slide > div > div {
+    padding: 43px 8px 0px 43px;
+    box-sizing: border-box;
+  }
+
+  .main__reviews__slide > div > img {
+    margin-left: 0px;
+  }
+
+  .main__reviews__slide > div > div {
+		padding: 0;
+		width: 100%;
+  }
+
+  .main__reviews__wrapper > h2 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 340px) {
+  .main__reviews__slide > div > div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,103 @@
+@media (max-width: 1230px) {
+.main__wrapper >  div:nth-of-type(1) > h1 {
+    font-size: 380px;
+}
+
+.main__wrapper > div:nth-of-type(1) > div {
+    margin: 100px 50px 0px 50px;
+}
+
+.main__wrapper > div:nth-of-type(1) > div > div {
+    margin: 0px 0px 0px 0px;
+}
+}
+
+@media (max-width: 960px) {
+.main__wrapper {
+    flex-direction: column;
+}
+
+.main__wrapper > div:nth-of-type(1) > h1 {
+    font-size: 340px;
+}
+
+.main__wrapper > div:nth-of-type(1) > h1:nth-of-type(2) {
+    display: block;
+}
+
+.main__wrapper > div:nth-of-type(1) > div {
+    display: none;
+}
+
+.main__wrapper > div:nth-of-type(2) {
+    display: flex;
+}
+
+.main__wrapper > div:nth-of-type(1) {
+    height: 350px;
+}
+
+.main__wrapper > div:nth-of-type(1) > h1 {
+    line-height: 350px;
+}
+
+.main__wrapper > div:nth-of-type(2) {
+    margin: 0px 50px 50px 50px;
+}
+
+.main__wrapper > div:nth-of-type(2) > div {
+    margin: 10px 0px 0px 0px;
+}
+}
+
+@media (max-width: 850px) {
+.main__wrapper > div:nth-of-type(1) > h1 {
+    font-size: 255px;
+}
+}
+
+@media (max-width: 675px) {
+.main__wrapper > div:nth-of-type(1) {
+    height: 250px;
+}
+.main__wrapper > div:nth-of-type(1) > h1 {
+    font-size: 33vw;
+}
+.main__wrapper > div:nth-of-type(1) > h1 {
+    line-height: 250px;
+}
+}
+
+@media (max-width: 520px) {
+.main__wrapper > div:nth-of-type(2) > h1 {
+    font-size: 16px;
+    width: 310px;
+    text-align: center;
+}
+
+.main__wrapper > div:nth-of-type(2) > div > div {
+    margin-top: 10px;
+}
+
+.main__wrapper > div:nth-of-type(2) {
+    margin: 0px 50px 40px 50px;
+}
+
+.main__wrapper {
+    min-height: 590px;
+}
+
+.main__wrapper > div:nth-of-type(1) {
+    height: 170px;
+}
+
+.main__wrapper > div:nth-of-type(1) > h1 {
+    line-height: 150px;
+}
+}
+
+@media (max-width: 420px) {
+.main__wrapper {
+    min-height: 590px;
+}
+}

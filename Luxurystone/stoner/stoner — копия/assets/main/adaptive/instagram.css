@@ -1,0 +1,92 @@
+@media (max-width: 1402px) {
+  .main__instagram-photo {
+    justify-content: center;
+  }
+
+  .main__instagram > p {
+    margin: 55px 0px 0px 23vw;
+  }
+
+  .main__instagram > p > br {
+    display: none;
+  }
+}
+
+@media (max-width: 1320px) {
+  .main__instagram > p {
+    margin: 55px 0px 0px 21vw;
+  }
+}
+
+@media (max-width: 1320px) {
+  .main__instagram > p {
+    margin: 55px 0px 0px 18vw;
+  }
+}
+
+@media (max-width: 1150px) {
+  .main__instagram > p {
+    margin: 55px 0px 0px 15vw;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main__instagram > p {
+    margin: 55px 0px 0px 12vw;
+  }
+}
+
+@media (max-width: 933px) {
+  .main__instagram_block {
+    height: 1615px;
+  }
+
+  .main__instagram-photo_4 {
+    display: none;
+  }
+
+  .main__instagram-photo_5 {
+    display: none;
+  }
+
+  .main__instagram-photo_6 {
+    display: none;
+  }
+}
+
+@media (max-width: 905px) {
+  .main__instagram > p {
+    margin: 55px 0px 0px 8vw;
+  }
+}
+
+@media (max-width: 830px) {
+  .main__instagram > p {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 640px) {
+    .main__instagram > p {
+      font-size: 23px;
+    }
+  }
+
+
+  @media (max-width: 550px) {
+    .main__instagram > p {
+        font-size: 20px;
+    }
+
+    .main__instagram > p {
+        margin: 38px 0px 0px 2vw;
+    }
+  }
+
+  @media (max-width: 350px) {
+
+    .main__instagram-photo > div > div:nth-of-type(2) {
+        padding: 60px 20px 0px 20px;
+    }
+  }

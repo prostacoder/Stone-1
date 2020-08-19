@@ -1,0 +1,109 @@
+@media (max-width: 1600px) {
+
+    .main__buy-stone {
+        width: 900px;
+    }
+
+    .main__wrapper {
+        max-width: 1210px;
+    }
+
+    .main__floor-photo {
+        width: 552px;
+        grid-template-rows: 242px 84px;
+        grid-template-columns: 180px 180px 180px;
+    }
+
+    .main__floor-photo > img:nth-of-type(1) {
+        width: 550px;
+    }
+
+    .main__floor-photo > img:nth-of-type(2) {
+        width: 180px;
+    }
+
+    .main__floor-photo > img:nth-of-type(3) {
+        width: 180px;
+    }
+
+    .main__floor-photo > img:nth-of-type(4) {
+        width: 180px;
+    }
+
+
+
+
+    .main__parameter {
+        width: 290px;
+        margin: 0px 0px 0px 48px;
+    }
+
+    .main__parameter > div:nth-of-type(1) {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .main__parameter > h1 {
+        font-size: 18px;
+    }
+
+    .main__parameter > div:nth-of-type(1) > p {
+        font-size: 14px;
+    }
+
+    .main__parameter > div:nth-of-type(1) > p > span {
+        font-size: 14px;
+    }
+
+    .main__parameter > div:nth-of-type(2) {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .main__parameter > div:nth-of-type(2) > p {
+        font-size: 14px;
+    }
+
+    .main__parameter > div:nth-of-type(2) > p > span:nth-of-type(1) {
+        font-size: 16px;
+    }
+
+    .main__parameter > div:nth-of-type(3) > div > input:nth-of-type(1) {
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .main__parameter > div:nth-of-type(3) > div > input:nth-of-type(2) {
+        width: 80px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .main__parameter > div:nth-of-type(3) > div > input:nth-of-type(2) {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .main__parameter > div:nth-of-type(3) > input {
+        width: 285px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+
+
+    .main__benefit {
+        margin: 0px 55px 0px 0px;
+    }
+
+    .main__benefit > img {
+        height: 50px;
+        margin: 6px 0px 0px 0px;
+    }
+
+    .main__benefit > p {
+        font-size: 13px;
+        margin: 1px 0px 0px 15px;
+    }
+
+
+
+}

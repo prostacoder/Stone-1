@@ -1,0 +1,38 @@
+@media (max-width: 1600px) {
+
+    .main__services {
+        max-width: 1210px;
+        min-height: 1000px;
+    }
+    
+    .main__services > h1:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .main__skills > div > img {
+        width: 315px;
+        height: 180px;
+    }
+
+    .main__skills > div > div {
+        margin: 0px 0px 0px 27px;
+    }
+
+    .main__skills > div > div > h1 {
+        font-size: 20px;
+    }
+
+    .main__skills > div > div > p {
+        width: 254px;
+        font-size: 12px;
+    }
+
+    .main__skills > div > div > a > input {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .main__skills > div > div > a > input:hover {
+        margin: 5px 0px 0px 0px;
+    }
+
+}

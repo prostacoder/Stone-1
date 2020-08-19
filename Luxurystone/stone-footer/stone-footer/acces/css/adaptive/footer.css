@@ -1,0 +1,107 @@
+@media (max-width: 1700px) {
+  .footer__feedback {
+    margin: 0.2vw 0px 0px 5.2vw;
+  }
+
+  .footer__navigation {
+    margin: 49px 0px 0px 2vw;
+  }
+}
+
+@media (max-width: 1500px) {
+  .footer__copyright > p:nth-of-type(1) {
+    margin: 0px 0px 0px 2vw;
+  }
+
+  .footer__our-skills_2-column_block {
+    display: none;
+  }
+
+  .footer__copyright > a:nth-of-type(1) {
+    margin: 0px 0px 0px 9.4vw;
+  }
+}
+
+@media (max-width: 994px) {
+  .footer__our-skills_1-column_block {
+    display: none;
+  }
+}
+
+@media (max-width: 589px) {
+
+    .footer {
+        height: 300px;
+    }
+
+  .footer__our_material {
+    display: none;
+  }
+
+  .footer__navigation {
+    margin: 10px 0px 0px 2vw;
+}
+
+.footer__navigation-part_5 {
+    display: none;
+}
+
+.footer__block {
+    height: 100px;
+}
+
+.footer__copyright-block {
+    display: flex;
+    justify-content: center;
+}
+
+.footer > div:nth-of-type(1) {
+    justify-content: center;
+}
+
+.footer__navigation {
+    margin: 10px 0px 0px 0vw;
+}
+
+.footer__copyright {
+    flex-direction: column;
+}
+
+.footer__copyright > a:nth-of-type(2) {
+    margin: 0px 0px 0px 7.3vw;
+}
+
+.footer__copyright > a:nth-of-type(1) {
+    margin: 0px 0px 0px 7.4vw;
+}
+
+.footer__feedback-block {
+    justify-content: center;
+}
+
+.footer__feedback {
+    margin: 0.2vw 0px 0px 0vw;
+}
+
+}
+
+
+@media (max-width: 510px) {
+
+.footer__navigation-part_3 {
+    display: none;
+}
+
+
+}
+
+@media (max-width: 420px) {
+
+    .footer__navigation-part_4 {
+        display: none;
+    }
+    
+    
+    }
+    
+

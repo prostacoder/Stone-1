@@ -1,0 +1,112 @@
+@media (max-width: 1600px) {
+
+    .main__services {
+        max-width: 1210px;
+        min-height: 860px;
+    }
+    
+    .main__services > h1:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .main__skills > div > img {
+        width: 315px;
+        height: 180px;
+    }
+
+    .main__skills > div > div > a {
+        width: 100%;
+    }
+
+    .main__skills > div > div > a > input {
+        width: 70%;
+    }
+
+    .main__skills > div > div {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .main__skills > div > div > h1 {
+        font-size: 20px;
+    }
+
+    .main__skills > div > div > p {
+        width: 254px;
+        font-size: 12px;
+    }
+
+    .main__skills > div > div > a > input {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .main__skills > div > div > a > input:hover {
+        margin: 5px 0px 0px 0px;
+    }
+
+}
+
+
+@media(max-width: 1400px) {
+
+.main__skills {
+    grid-row-gap: 20px;
+}
+
+.main__skills > div > img {
+    margin-bottom: 0px;
+}
+
+.main__skills > div > div > h1 {
+    font-size: 21px;
+}
+
+.main__skills > div > div > p {
+    width: 100%;
+    font-size: 16px;
+}
+
+.main__skills > div > div > a > input {
+    width: 60%;
+    font-size: 10px;
+}
+
+.main__skills > div > div > a > input:hover {
+    font-size: 10px;
+}
+
+}
+
+
+@media(max-width: 960px) {
+
+.main__skills > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__services > h1:nth-of-type(1) {
+    text-align: center;
+}
+
+.main__skills {
+    grid-row-gap: 30px;
+}
+
+}
+
+@media(max-width: 370px) {
+
+.main__skills {
+    grid-row-gap: 0px;
+}
+
+.main__skills > div > div > p {
+    height: auto;
+}
+
+.main__services > h1:nth-of-type(1) {
+    font-size: 25px;
+}
+
+}
